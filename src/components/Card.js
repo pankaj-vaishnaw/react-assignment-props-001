@@ -6,7 +6,7 @@ const Card = (props) => {
       <div className="cards" style={{ backgroundColor: props.hashcode }}>
         <div className="title">
           <h3>{props.title}</h3>
-          <h4 style={{color:props.color}}>{props.color}</h4>
+          <h6 style={{color:props.color}}>{props.color}</h6>
         </div>
       </div>
 
